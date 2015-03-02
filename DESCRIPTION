@@ -1,0 +1,18 @@
+Package: quantumClustering
+Title: Implements David Horn's quantum clustering algorithm
+Version: 0.1
+Authors@R: "Ross Taylor <ross.duncan.taylor@zoho.com> [aut, cre]"
+Description: This package contains the qc() function for quantum clustering.
+    The algorithm permits non-linear clustering which finds organic groupings
+    of data powered by eigenfunctions and does not suffer from the curse of
+    dimensionality.
+Depends:
+    R (>= 3.0)
+License: MIT + file LICENSE
+LazyData: true
+Imports:
+    foreach
+Suggests:
+    doMC,
+    devtools,
+    testthat
